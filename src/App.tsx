@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { differenceInDays, startOfDay, addMonths, format, parseISO } from 'date-fns';
 import { Skull, Users, Bell, Home, Settings, Save } from 'lucide-react';
 import { Runway } from './components/Runway';
